@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World Website</title>
+        <script>
+            function changeText() {
+                document.getElementById("greeting").innerText = "You clicked the button!";
+            }
+        </script>
+        function changetext() {
+            // >>> put a prompt here, ask the user for a new name <<< 
+            // Use document.getElementById("your id").textContent = .... to change the level 1 header to say something new
+        }
+    </script>
+</head>
+<body>
+    <h1 id="greeting">Hello, World!</h1>
+    <button onclick="changeText()">Click Me!</button>
+    <button onclick="changetext()">Change Name</button>
+</body>
+</html>
+        <script>
